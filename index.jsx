@@ -1,1 +1,19 @@
-ReactDOM.render(<p>Hello, this is the first react app!</p>, document.getElementById('root'));
+function Navbar() {
+  return (
+    <nav>
+      <h1>Digital Artisans</h1>
+      <ul>
+        <li>Home</li>
+        <li>Developers</li>
+        <li>Projects</li>
+      </ul>
+    </nav>
+  );
+}
+
+const value = <Navbar/>;
+
+console.log(value);
+
+ReactDOM.render(value, document.getElementById('root'));
+
