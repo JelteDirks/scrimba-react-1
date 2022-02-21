@@ -1,3 +1,5 @@
+import * as ReactDOM from "react-dom";
+
 function Navbar() {
   return (
     <nav>

@@ -19,5 +19,9 @@
   "homepage": "https://github.com/JelteDirks/scrimba-react-1#readme",
   "devDependencies": {
     "parcel": "^2.3.2"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   }
 }
