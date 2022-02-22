@@ -1,21 +1,18 @@
-import * as ReactDOM from "react-dom";
+import ReactDOM from "react-dom";
 
-function Navbar() {
+function Page() {
   return (
     <nav>
+      <img src="https://placehold.co/200x200" alt=""/>
       <h1>Digital Artisans</h1>
       <ul>
-        <li>Home</li>
-        <li>Developers</li>
-        <li>Projects</li>
+        <li>It's high quality</li>
+        <li>It's high value</li>
+        <li>It's still, just two people developing with humor</li>
       </ul>
     </nav>
   );
 }
 
-const value = <Navbar/>;
-
-console.log(value);
-
-ReactDOM.render(value, document.getElementById('root'));
+ReactDOM.render(Page(), document.getElementById('root'));
 
