@@ -1,0 +1,20 @@
+.navigation {
+    display: flex;
+    align-items: center;
+}
+
+.navigation > h1 {
+    padding-left: 10pt;
+}
+
+.menu-items {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 20pt;
+    margin: 20pt;
+}
+
+.menu-items > li {
+    padding-left: 10pt;
+}
